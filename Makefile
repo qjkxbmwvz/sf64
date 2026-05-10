@@ -467,6 +467,9 @@ assets:
 	@$(TORCH) code $(BASEROM_UNCOMPRESSED)
 	@$(TORCH) header $(BASEROM_UNCOMPRESSED)
 	@$(TORCH) modding export $(BASEROM_UNCOMPRESSED)
+	@$(PYTHON) $(TOOLS)/extract_waves.py
+	@$(PYTHON) $(TOOLS)/extract_banks.py
+	@$(PYTHON) $(TOOLS)/extract_samples.py
 
 mod:
 	@$(TORCH) modding import code $(BASEROM_UNCOMPRESSED)

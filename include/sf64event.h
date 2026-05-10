@@ -123,7 +123,7 @@ typedef enum EventActorIwork {
     /* 13 */ EVA_FORMATION,
     /* 14 */ EVA_IWORK_14,
     /* 15 */ EVA_GROUP_ID,
-    /* 16 */ EVA_GROUP_FLAG,
+    /* 16 */ EVA_GROUP_FLAG
 } EventActorIwork;
 
 typedef enum EventActorFwork {
@@ -162,7 +162,7 @@ typedef enum EventActorFwork {
     /* 26 */ EVA_FWORK_26,
     /* 27 */ EVA_FWORK_27,
     /* 28 */ EVA_FWORK_28,
-    /* 29 */ EVA_FWORK_29,
+    /* 29 */ EVA_FWORK_29
 } EventActorFwork;
 
 #define EVA_FORMATION_OFFSET 28
@@ -172,7 +172,7 @@ typedef enum EventModeZ {
     /* 0 */ EMZ_REST,
     /* 1 */ EMZ_RELATIVE,
     /* 2 */ EMZ_PLAYER,
-    /* 3 */ EMZ_3,
+    /* 3 */ EMZ_3
 } EventModeZ;
 
 typedef enum EventOpcode {
@@ -221,7 +221,7 @@ typedef enum EventOpcode {
     /* 124 */ EVOP_MAKE_TEXLINE = 124,
     /* 125 */ EVOP_STOP_TEXLINE,
     /* 126 */ EVOP_LOOP,
-    /* 127 */ EVOP_STOP_SCRIPT,
+    /* 127 */ EVOP_STOP_SCRIPT
 } EventOpcode;
 
 typedef enum EventCondition {
@@ -293,7 +293,7 @@ typedef enum EventCondition {
     /* 65 */ EVC_30_HITS,
     /* 66 */ EVC_80_HITS,
     /* 67 */ EVC_EXPERT_MODE,
-    /* 100 */ EVC_CLOSE_Z=100,
+    /* 100 */ EVC_CLOSE_Z=100
 } EventCondition;
 
 typedef enum EventState {
@@ -314,7 +314,7 @@ typedef enum EventState {
     /* 14 */ EVSTATE_PURSUE_CAMERA,
     /* 15 */ EVSTATE_FLEE_CAMERA,  
     /* 200 */ EVSTATE_SCRIPT_END = 200,
-    /* 1000 */ EVSTATE_1000 = 1000,
+    /* 1000 */ EVSTATE_1000 = 1000
 } EventState;
 
 typedef enum EventAction {
@@ -337,7 +337,7 @@ typedef enum EventAction {
     /* 16 */ EVACT_SHOOT_PLAYER_TWICE,
     /* 17 */ EVACT_SHOOT_AT_CAMERA,
     /* 18 */ EVACT_GFOX_COVER_FIRE,
-    /* 19 */ EVACT_ORB_RING,  // projectile ring used by bee enemies
+    /* 19 */ EVACT_ORB_RING  // projectile ring used by bee enemies
 } EventAction;
 
 typedef enum EventActorId {
@@ -451,7 +451,7 @@ typedef enum EventActorId {
     /* 107 */ EVID_MA_GUILLOTINE_2, // Variant of the Macbeth Guillotine that can be shot at to be opened
     /* 200 */ EVID_ME_MORA = 200,
     /* 300 */ EVID_300 = 300,
-    /* 4095*/ EVID_UNINITIALIZED = 4095,
+    /* 4095*/ EVID_UNINITIALIZED = 4095
 } EventActorId;
 
 typedef enum EventSfx {
@@ -477,7 +477,7 @@ typedef enum EventSfx {
     /* 19 */ EVSFX_OB_ROUTEGATE_OPEN_S,
     /* 20 */ EVSFX_OB_ROUTEGATE_CLOSE_S,
     /* 21 */ EVSFX_OB_LIFT,
-    /* 22 */ EVSFX_OB_PLATE_ROLL,
+    /* 22 */ EVSFX_OB_PLATE_ROLL
 } EventSfx;
 
 typedef enum TexLineColor {
@@ -486,7 +486,7 @@ typedef enum TexLineColor {
     /* 2 */ TXLC_BLUE,
     /* 3 */ TXLC_GREEN,
     /* 4 */ TXLC_RED,
-    /* 5 */ TXLC_YELLOW,
+    /* 5 */ TXLC_YELLOW
 } TexLineColor;
 
 #endif

@@ -33,7 +33,7 @@ typedef enum AudioType {
     /* 0 */ AUDIO_TYPE_MUSIC,
     /* 1 */ AUDIO_TYPE_VOICE,
     /* 2 */ AUDIO_TYPE_SFX,
-    /* 3 */ AUDIO_TYPE_MAX,
+    /* 3 */ AUDIO_TYPE_MAX
 } AudioType;
 
 typedef enum {
@@ -47,7 +47,7 @@ typedef enum OptionSoundMode {
     /* 0 */ OPTIONSOUND_STEREO,
     /* 1 */ OPTIONSOUND_MONO,
     /* 2 */ OPTIONSOUND_HEADSET,
-    /* 3 */ OPTIONSOUND_MAX,
+    /* 3 */ OPTIONSOUND_MAX
 } OptionSoundMode;
 
 typedef enum {
@@ -86,7 +86,7 @@ typedef enum {
     /* 25 */ AUDIOSPEC_GAME_OVER,
     /* 26 */ AUDIOSPEC_26,
     /* 27 */ AUDIOSPEC_ENDING,
-    /* 28 */ AUDIOSPEC_TR,
+    /* 28 */ AUDIOSPEC_TR
 } AudioSpecID;
 
 #endif

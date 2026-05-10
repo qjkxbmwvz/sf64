@@ -513,7 +513,7 @@ void ActorDebris_Update(ActorDebris* this) {
     static Vec3f D_800D0030 = { 0.0f, -10.0f, 0.0f };
 
     switch (this->state) {
-        case ACTORDEBRIS_40:
+        case ACTORDEBRIS_TI_GORAS:
             if (this->work_04A & 4) {
                 this->obj.pos.x = gPlayer[0].pos.x + this->fwork[3];
                 this->obj.pos.z = gPlayer[0].trueZpos + this->fwork[4];

@@ -3832,7 +3832,7 @@ void Titania_80193DF0(TiGoras* this) {
         if (D_i5_801BBF00[i].unk_26 & 2) {
             actor = Game_SpawnActor(OBJ_ACTOR_DEBRIS);
             if (actor != NULL) {
-                actor->state = ACTORDEBRIS_40;
+                actor->state = ACTORDEBRIS_TI_GORAS;
                 actor->work_046 = D_i5_801B7770[i][5];
                 actor->work_048 = D_i5_801B7770[i][1];
                 if (D_i5_801B7770[i][0] == 85) {
@@ -4207,7 +4207,7 @@ void Titania_80193DF0(TiGoras* this) {
             for (i = 0; i < 33; i++) {
                 actor = Game_SpawnActor(OBJ_ACTOR_DEBRIS);
                 if (actor != NULL) {
-                    actor->state = ACTORDEBRIS_40;
+                    actor->state = ACTORDEBRIS_TI_GORAS;
                     actor->obj.pos.x = 0.0f;
                     actor->obj.pos.y = 0.0f;
                     actor->obj.pos.z = this->obj.pos.z + 2000.0f;
@@ -5505,7 +5505,7 @@ void Titania_TiGoras_Dying(TiGoras* this) {
             if (!(D_i5_801BBF00[i].unk_26 & 4)) {
                 debris = Game_SpawnActor(OBJ_ACTOR_DEBRIS);
                 if (debris != NULL) {
-                    debris->state = ACTORDEBRIS_40;
+                    debris->state = ACTORDEBRIS_TI_GORAS;
 
                     debris->work_046 = D_i5_801B7770[i][5];
                     debris->work_048 = D_i5_801B7770[i][1];
@@ -5554,7 +5554,7 @@ void Titania_TiGoras_Dying(TiGoras* this) {
                 debris->fwork[0] = ((Rand_ZeroOne() < 0.5f) ? -1 : 1) * (RAND_FLOAT(1.0f) + 1.0f);
                 debris->fwork[1] = ((Rand_ZeroOne() < 0.5f) ? -1 : 1) * (RAND_FLOAT(1.0f) + 1.0f);
 
-                debris->state = ACTORDEBRIS_40;
+                debris->state = ACTORDEBRIS_TI_GORAS;
 
                 debris->work_046 = 25;
                 debris->work_048 = 0;
@@ -5581,7 +5581,7 @@ void Titania_TiGoras_Dying(TiGoras* this) {
                 debris->fwork[0] = ((Rand_ZeroOne() < 0.5f) ? -1 : 1) * (RAND_FLOAT(5.0f) + 5.0f);
                 debris->fwork[1] = ((Rand_ZeroOne() < 0.5f) ? -1 : 1) * (RAND_FLOAT(5.0f) + 5.0f);
 
-                debris->state = ACTORDEBRIS_40;
+                debris->state = ACTORDEBRIS_TI_GORAS;
 
                 debris->work_046 = 2;
                 debris->work_048 = 1;
@@ -5608,7 +5608,7 @@ void Titania_TiGoras_Dying(TiGoras* this) {
                 debris->fwork[0] = ((Rand_ZeroOne() < 0.5f) ? -1 : 1) * (RAND_FLOAT(1.0f) + 1.0f);
                 debris->fwork[1] = ((Rand_ZeroOne() < 0.5f) ? -1 : 1) * (RAND_FLOAT(1.0f) + 1.0f);
 
-                debris->state = ACTORDEBRIS_40;
+                debris->state = ACTORDEBRIS_TI_GORAS;
 
                 debris->work_046 = 2;
                 debris->work_048 = 1;

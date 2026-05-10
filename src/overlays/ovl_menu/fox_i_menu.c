@@ -4,8 +4,8 @@ void Title_Main(void);
 void Title_Draw(void);
 void Option_Main(void);
 void Option_Entry_Draw(void);
-void Map_GameOver(void);
-void Map_8019E8C8(void);
+void Option_GameOver(void);
+void Option_8019E8C8(void);
 void Map_Main(void);
 void Map_Draw(void);
 
@@ -39,11 +39,11 @@ void OvlMenu_CallFunction(u32 mode, void* ptr) {
             break;
 
         case OVLCALL_GAME_OVER_UPDATE:
-            Map_GameOver();
+            Option_GameOver();
             break;
 
         case OVLCALL_UNKMAP_DRAW:
-            Map_8019E8C8();
+            Option_8019E8C8();
 
         default:
             break;

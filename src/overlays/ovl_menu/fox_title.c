@@ -3517,6 +3517,10 @@ void Title_Radio_PlayMessage(u16** msgList, RadioCharacterId character) {
             gRadioTextBoxScaleX = 4.53f;
             gRadioPortraitPosX = 26.0f;
             gRadioPortraitPosY = 178.0f;
+            break;
+
+        default:
+            break;
     }
 
     Audio_PlayVoice(Message_IdFromPtr(gRadioMsg));

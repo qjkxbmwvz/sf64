@@ -32,6 +32,8 @@ void Radio_Hide(void) {
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/engine/fox_radio/Radio_TextBox_Draw.s")
 
+// Matched
+// https://decomp.me/scratch/6ASda
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/engine/fox_radio/Radio_Draw.s")
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/engine/fox_radio/Radio_Draw_Alt.s")

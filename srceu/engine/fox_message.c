@@ -8,7 +8,7 @@
 
 #pragma GLOBAL_ASM("asm/eu/rev0/nonmatchings/engine/fox_message/func_800C34B4.s")
 
-#pragma GLOBAL_ASM("asm/eu/rev0/nonmatchings/engine/fox_message/func_800C34E8.s")
+#pragma GLOBAL_ASM("asm/eu/rev0/nonmatchings/engine/fox_message/Message_DisplayChar.s")
 
 #pragma GLOBAL_ASM("asm/eu/rev0/nonmatchings/engine/fox_message/func_800C367C.s")
 

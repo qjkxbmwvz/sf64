@@ -7,14 +7,14 @@
 
 typedef enum LevelType {
     /* 0 */ LEVELTYPE_PLANET,
-    /* 1 */ LEVELTYPE_SPACE,
+    /* 1 */ LEVELTYPE_SPACE
 } LevelType;
 
 typedef enum MissionStatus {
     /* 0 */ MISSION_COMPLETE,
     /* 1 */ MISSION_ACCOMPLISHED,
     /* 2 */ MISSION_WARP,
-    /* 3 */ MISSION_MAX,
+    /* 3 */ MISSION_MAX
 } MissionStatus;
 
 typedef struct Environment {
@@ -48,7 +48,7 @@ typedef enum GroundType {
     /* 10 */ GROUND_10 = 10,
     /* 11 */ GROUND_11,
     /* 12 */ GROUND_12,
-    /* 13 */ GROUND_13,
+    /* 13 */ GROUND_13
 } GroundType;
 
 typedef enum SceneId {
@@ -78,7 +78,7 @@ typedef enum SceneId {
     /* 23 */ SCENE_SECTOR_Z,
     /* 24 */ SCENE_VENOM_2,
     /* 50 */ SCENE_VERSUS = 50,
-    /* 99 */ SCENE_LOGO = 99,
+    /* 99 */ SCENE_LOGO = 99
 } SceneId;
 
 typedef enum LevelId {
@@ -104,7 +104,7 @@ typedef enum LevelId {
     /* 18 */ LEVEL_SECTOR_Z,
     /* 19 */ LEVEL_VENOM_2,
     /* 20 */ LEVEL_VERSUS,
-    /* 77 */ LEVEL_WARP_ZONE = 77,
+    /* 77 */ LEVEL_WARP_ZONE = 77
 } LevelId;
 
 typedef enum PlanetId {
@@ -124,19 +124,19 @@ typedef enum PlanetId {
     /* 12 */ PLANET_FORTUNA,
     /* 13 */ PLANET_VENOM,
     /* 14 */ PLANET_SOLAR,
-    /* 15 */ PLANET_MAX,
+    /* 15 */ PLANET_MAX
 } PlanetId;
 
 typedef enum VsStage {
     /* 0 */ VS_STAGE_CORNERIA,
     /* 1 */ VS_STAGE_KATINA,
-    /* 2 */ VS_STAGE_SECTOR_Z,
+    /* 2 */ VS_STAGE_SECTOR_Z
 } VsStage;
 
 typedef enum VsMatchType {
     /* 0 */ VS_MATCH_POINTS,
     /* 1 */ VS_MATCH_BATTLE,
-    /* 2 */ VS_MATCH_TIME,
+    /* 2 */ VS_MATCH_TIME
 } VsMatchType;
 
 #define VS_TIME_UP(countdown) (((countdown)[0] == 0) && ((countdown)[1] == 0) && ((countdown)[2] == 0))
@@ -157,13 +157,13 @@ typedef enum VsState {
     /* 12 */ VS_STATE_12,
     /* 13 */ VS_STATE_13,
     /* 14 */ VS_STATE_14,
-    /* 20 */ VS_STATE_20 = 20,
+    /* 20 */ VS_STATE_20 = 20
 } VsState;
 
 typedef enum GroundSurface {
     /* 0 */ SURFACE_GRASS,
     /* 1 */ SURFACE_ROCK,
-    /* 2 */ SURFACE_WATER,
+    /* 2 */ SURFACE_WATER
 } GroundSurface;
 
 #endif

@@ -17,7 +17,7 @@
 #include "assets/ast_font_3d.h"
 
 // BSS STARTS HERE
-u8 gMapVenomCloudTex[96 * 96];
+u8 gMapPlanetCloudTex[96 * 96];
 u8 gMapCorneriaTex[96 * 96];
 u8 gMapFortunaTex[96 * 96];
 u8 gMapAquasTex[96 * 96];
@@ -678,45 +678,47 @@ Vtx gMapPlanetVTX[] = {
     VTX(-30, -30, 0, 0, 256, 255, 255, 255, 255), VTX(30, -30, 0, 3072, 256, 255, 255, 255, 255),
 };
 
-Gfx gMapVenomCloudDL[] = {
+Gfx gMapPlanetCloudDL[] = {
     gsSPVertex(gMapPlanetVTX, 16, 0),
-    gsDPLoadTextureBlock(gMapVenomCloudTex, G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(gMapPlanetCloudTex, G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(1, 2, 3, 0, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 1], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 1], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(5, 6, 7, 4, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 2], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 2], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(9, 10, 11, 8, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 3], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 3], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(13, 14, 15, 12, 0),
     gsSPVertex(&gMapPlanetVTX[16], 16, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 4], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 4], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(1, 2, 3, 0, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 5], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 5], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(5, 6, 7, 4, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 6], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 6], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(9, 10, 11, 8, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 7], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 7], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(13, 14, 15, 12, 0),
     gsSPVertex(&gMapPlanetVTX[32], 16, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 8], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 8], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(1, 2, 3, 0, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 9], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 9], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
                          G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
     gsSP1Quadrangle(5, 6, 7, 4, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 10], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0, G_TX_NOMIRROR | G_TX_WRAP,
-                         G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 10], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 9, 0,
+                         G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD,
+                         G_TX_NOLOD),
     gsSP1Quadrangle(9, 10, 11, 8, 0),
-    gsDPLoadTextureBlock(&gMapVenomCloudTex[96 * 8 * 11], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 8, 0, G_TX_NOMIRROR | G_TX_WRAP,
-                         G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD),
+    gsDPLoadTextureBlock(&gMapPlanetCloudTex[96 * 8 * 11], G_IM_FMT_IA, G_IM_SIZ_8b, 96, 8, 0,
+                         G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMASK, G_TX_NOMASK, G_TX_NOLOD,
+                         G_TX_NOLOD),
     gsSP1Quadrangle(13, 14, 15, 12, 0),
     gsDPPipeSync(),
     gsDPSetTextureLUT(G_TT_NONE),
@@ -1101,8 +1103,8 @@ Gfx gMapZonessDL[] = {
 
 // BSS
 u8* gBSSMapPlanetTextures[9] = {
-    gMapKatinaTex, gMapMacbethTex, gMapZonessTex, gMapCorneriaTex,   gMapTitaniaTex,
-    gMapAquasTex,  gMapFortunaTex, gMapVenomTex,  gMapVenomCloudTex,
+    gMapKatinaTex, gMapMacbethTex, gMapZonessTex, gMapCorneriaTex,    gMapTitaniaTex,
+    gMapAquasTex,  gMapFortunaTex, gMapVenomTex,  gMapPlanetCloudTex,
 };
 
 // AST_MAP
@@ -1117,7 +1119,6 @@ Gfx* sMapPlanets[PLANET_MAX] = {
     gMapTitaniaDL, gMapAquasDL,  gMapFortunaDL, gMapVenomDL,   aMapSolarDL,
 };
 
-void Map_8019E800(void);
 void Map_Setup(void);
 void Map_Setup_Play(void);
 void Map_Setup_GameOver(void);
@@ -1174,7 +1175,7 @@ s32 Map_CheckPlanetMedal(PlanetId planetId);
 void Map_PlanetAnim2(PlanetId planetId);
 void Map_PlanetAnim(PlanetId planetId);
 void Map_SolarRays_Draw(PlanetId);
-void Map_VenomCloud2_Draw(PlanetId planetId);
+void Map_PlanetCloud_Draw(PlanetId planetId);
 void Map_PlanetShadow_Draw(PlanetId planetId);
 void Map_Titania_DrawRings1(PlanetId planetId);
 void Map_Titania_DrawRings2(PlanetId planetId);
@@ -1211,36 +1212,6 @@ void Map_PathLine_Draw(PathType);
 void Map_PathLines_Draw(s32);
 void Map_PathLinePos(s32 index, Vec3f* src, Vec3f* dest);
 void Map_CamMatrixRot(void);
-
-void Map_8019E800(void) {
-    Memory_FreeAll();
-    Play_GenerateStarfield();
-    gStarCount = 0;
-    gNextGameState = GSTATE_MAP;
-    gLastGameState = GSTATE_GAME_OVER;
-    D_ctx_80177868 = 2;
-    gDrawMode = DRAW_NONE;
-}
-
-void Map_GameOver(void) {
-    switch (D_ctx_80177868) {
-        case 0:
-            if (gNextGameStateTimer == 0) {
-                D_ctx_80177868 = 1;
-            }
-            break;
-
-        case 2:
-            break;
-
-        case 1:
-            Map_8019E800();
-            break;
-    }
-}
-
-void Map_8019E8C8(void) {
-}
 
 void Map_Main(void) {
     if (sMapTimer1 > 0) {
@@ -1412,7 +1383,7 @@ void Map_Setup(void) {
         gMapKatinaTex[i] = 82;
         gMapMacbethTex[i] = 68;
         gMapZonessTex[i] = 52;
-        gMapVenomCloudTex[i] = 0;
+        gMapPlanetCloudTex[i] = 0;
     }
 
     for (i = 0; i < ARRAY_COUNT(gBSSMapPlanetTextures); i++) {
@@ -4416,7 +4387,7 @@ void Map_Planet_Draw(PlanetId planetId) {
         if (sPlanets[planetId].anim == PL_ANIM_SPIN) {
             if (planetId != PLANET_VENOM) {
                 if ((planetId != PLANET_AQUAS) && (planetId != PLANET_TITANIA)) {
-                    Map_VenomCloud2_Draw(planetId);
+                    Map_PlanetCloud_Draw(planetId);
                 }
                 Map_PlanetShadow_Draw(planetId);
             }
@@ -4643,7 +4614,7 @@ void Map_SolarRays_Draw(PlanetId planetId) {
     angle -= 0.2f;
 }
 
-void Map_VenomCloud2_Draw(PlanetId planetId) {
+void Map_PlanetCloud_Draw(PlanetId planetId) {
     s32 r;
     s32 g;
     s32 b;
@@ -4661,7 +4632,7 @@ void Map_VenomCloud2_Draw(PlanetId planetId) {
     Matrix_Copy(gGfxMatrix, &D_menu_801CDE20[planetId]);
     Matrix_SetGfxMtx(&gMasterDisp);
 
-    gSPDisplayList(gMasterDisp++, gMapVenomCloudDL);
+    gSPDisplayList(gMasterDisp++, gMapPlanetCloudDL);
 
     Matrix_Pop(&gGfxMatrix);
 }
@@ -5752,7 +5723,7 @@ void Map_PathPlanet_Draw(s32 missionIdx, f32 x, f32 y, PlanetId planetId) {
                         } else {
                             gDPSetPrimColor(gMasterDisp++, 0, 0, 255, 255, 255, 255);
                         }
-                        gSPDisplayList(gMasterDisp++, gMapVenomCloudDL);
+                        gSPDisplayList(gMasterDisp++, gMapPlanetCloudDL);
                     }
                     Matrix_Scale(gGfxMatrix, 1.6f, 1.6f, 1.6f, MTXF_APPLY);
                     Matrix_SetGfxMtx(&gMasterDisp);

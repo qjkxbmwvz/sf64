@@ -20,7 +20,7 @@ typedef enum OverlayCalls {
     /* 107 */ OVLCALL_OPTION_UPDATE,
     /* 108 */ OVLCALL_OPTION_DRAW,
     /* 109 */ OVLCALL_GAME_OVER_UPDATE,
-    /* 110 */ OVLCALL_UNKMAP_DRAW,
+    /* 110 */ OVLCALL_UNKMAP_DRAW
 } OverlayCalls;
 
 #include "sf64audio_external.h"

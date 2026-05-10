@@ -59,7 +59,7 @@ typedef enum RadioCharacterId {
     RCID_GEN_PEPPER_TITLE = 310,
     RCID_TR = 350,
     RCID_FOX_EXPERT = 400,
-    RCID_1000 = 1000,
+    RCID_1000 = 1000
 } RadioCharacterId;
 
 void Radio_PlayMessage(u16*, RadioCharacterId);
@@ -201,7 +201,7 @@ typedef enum MsgCharCode {
     /*124 */ MSGCHAR_124,
     /*125 */ MSGCHAR_125,
     /*126 */ MSGCHAR_126,
-    /*127 */ MSGCHAR_127,
+    /*127 */ MSGCHAR_127
 } MsgCharCode;
 
 typedef enum MsgMojiCode {
@@ -950,7 +950,7 @@ typedef enum MsgMojiCode {
     /* 732 */ MSGMOJI_732,
     /* 733 */ MSGMOJI_733,
     /* 734 */ MSGMOJI_734,
-    /* 735 */ MSGMOJI_735,
+    /* 735 */ MSGMOJI_735
 } MsgMojiCode;
 
 #endif

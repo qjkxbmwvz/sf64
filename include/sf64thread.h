@@ -19,14 +19,14 @@ typedef enum {
     /* 102 */ GSTATE_SHOW_LOGO,
     /* 103 */ GSTATE_CHECK_SAVE,
     /* 104 */ GSTATE_LOGO_WAIT,
-    /* 105 */ GSTATE_START,
+    /* 105 */ GSTATE_START
 } GameState;
 
 typedef enum PlayState {
     /*   0 */ PLAY_STANDBY,
     /*   1 */ PLAY_INIT,
     /*   2 */ PLAY_UPDATE,
-    /* 100 */ PLAY_PAUSE=100,
+    /* 100 */ PLAY_PAUSE = 100
 } PlayState;
 
 typedef void (*TimerAction)(s32*, s32);
@@ -96,7 +96,7 @@ typedef enum {
     /* 13 */ SI_RUMBLE,
     /* 14 */ SI_SAVE_FAILED,
     /* 15 */ SI_SAVE_SUCCESS,
-    /* 16 */ SI_CONT_READ_DONE,
+    /* 16 */ SI_CONT_READ_DONE
 } SerialMesg;
 
 extern OSContPad gControllerHold[4];
@@ -212,7 +212,7 @@ typedef enum {
     /* 5 */ THREAD_ID_AUDIO,
     /* 6 */ THREAD_ID_GRAPHICS,
     /* 7 */ THREAD_ID_TIMER,
-    /* 8 */ THREAD_ID_SERIAL,
+    /* 8 */ THREAD_ID_SERIAL
 } ThreadID;
 
 #endif

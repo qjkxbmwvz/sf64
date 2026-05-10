@@ -1298,7 +1298,7 @@ void Solar_ActorDebris_Setup(ActorDebris* this, f32 xPos, f32 yPos, f32 zPos, f3
     this->obj.status = OBJ_INIT;
     this->obj.id = OBJ_ACTOR_DEBRIS;
 
-    this->state = ACTORDEBRIS_40;
+    this->state = ACTORDEBRIS_TI_GORAS;
     this->work_046 = unk46;
     this->work_04A = 3;
 

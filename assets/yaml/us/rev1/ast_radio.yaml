@@ -23,7 +23,7 @@
       - '    _o, _p, _q, _r, _s, _t, _u, _v,'
       - '    _w, _x, _y, _z, EXM, QST, DSH, CMA,'
       - '    PRD, _0, _1, _2, _3, _4, _5, _6,'
-      - '    _7, _8, _9, APS, LPR, RPR, CLN, PIP,'
+      - '    _7, _8, _9, APS, LPR, RPR, CLN, PIP'
       - '} CharCode;'
 
 text_char_special_0:

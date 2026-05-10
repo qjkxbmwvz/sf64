@@ -16,7 +16,7 @@ typedef enum {
     /* 1 */ PL_PATH_YLW,
     /* 2 */ PL_PATH_RED,
     /* 3 */ PL_WARP_YLW,
-    /* 4 */ PL_WARP_RED,
+    /* 4 */ PL_WARP_RED
 } PathType;
 
 typedef struct {
@@ -34,7 +34,7 @@ typedef enum PlanetAnim {
     /* 1 */ PL_ANIM_BILLBOARD,
     /* 2 */ PL_ANIM_ROTATE_Y,
     /* 3 */ PL_ANIM_ROTATE_Z,
-    /* 4 */ PL_ANIM_SPIN,
+    /* 4 */ PL_ANIM_SPIN
 } PlanetAnim;
 
 typedef struct {

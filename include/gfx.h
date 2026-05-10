@@ -67,7 +67,7 @@
 typedef enum WipeMode {
     WIPE_CIRCULAR,
     WIPE_HORIZONTAL,
-    WIPE_VERTICAL,
+    WIPE_VERTICAL
 } WipeMode;
 
 typedef struct {

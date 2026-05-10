@@ -87,7 +87,7 @@ typedef enum BgmSeqIds {
 #else
     /* 66 */ SEQ_ID_MAX,
 #endif
-    /* -1 */ SEQ_ID_NONE = 0xFFFF,
+    /* -1 */ SEQ_ID_NONE = 0xFFFF
 } BgmSeqIds;
 
 #define SEQ_FLAG 0x8000

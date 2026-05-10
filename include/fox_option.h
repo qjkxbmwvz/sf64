@@ -74,7 +74,7 @@ typedef enum OptionId {
     /*   30 */ OPTION_TT_MATCH = 30,    // Time Trial Match
     /*  200 */ OPTION_NAME_ENTRY = 200,
     /*  300 */ OPTION_SCORE = 300,
-    /*  400 */ OPTION_INVOICE = 400,
+    /*  400 */ OPTION_INVOICE = 400
 } OptionId;
 
 extern u8* gBSSMapPlanetTextures[9];
@@ -87,7 +87,7 @@ extern s32 sWipeHeight;
 extern s32 sTitleRankMaxRecords;
 
 // Planet textures
-extern u8 gMapVenomCloudTex[96 * 96];
+extern u8 gMapPlanetCloudTex[96 * 96];
 extern u8 gMapCorneriaTex[96 * 96];
 extern u8 gMapFortunaTex[96 * 96];
 extern u8 gMapAquasTex[96 * 96];

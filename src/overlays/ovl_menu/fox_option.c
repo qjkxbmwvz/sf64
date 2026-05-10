@@ -15,7 +15,7 @@
 #include "assets/ast_map.h"
 
 extern s32 gRankingTeamAlive[][3];
-extern Gfx gMapVenomCloudDL[];
+extern Gfx gMapPlanetCloudDL[];
 extern Gfx gMapKatinaDL[];
 extern Gfx gMapMacbethDL[];
 extern Gfx gMapZonessDL[];
@@ -756,7 +756,7 @@ void Option_PlanetTextures_Setup(void) {
         gMapKatinaTex[i] = 82;
         gMapMacbethTex[i] = 68;
         gMapZonessTex[i] = 52;
-        gMapVenomCloudTex[i] = 0;
+        gMapPlanetCloudTex[i] = 0;
     }
 
     for (i = 0; i < ARRAY_COUNT(gBSSMapPlanetTextures); i++) {
@@ -2581,7 +2581,7 @@ void Option_RankingPlanetRoute_Draw(s32 rankIdx, f32 y, s32 routeMax) {
                         gDPSetPrimColor(gMasterDisp++, 0, 0, 255, 255, 255, 255);
                     }
                     Matrix_SetGfxMtx(&gMasterDisp);
-                    gSPDisplayList(gMasterDisp++, gMapVenomCloudDL);
+                    gSPDisplayList(gMasterDisp++, gMapPlanetCloudDL);
                 }
                 Matrix_Scale(gGfxMatrix, 1.6f, 1.6f, 1.6f, MTXF_APPLY);
                 Matrix_SetGfxMtx(&gMasterDisp);
@@ -4524,4 +4524,34 @@ void Option_InvoiceDraw(void) {
     if (gControllerHold[3].button & R_JPAD) {
         xPos[partIndex] += 1.0f;
     }
+}
+
+void Option_8019E800(void) {
+    Memory_FreeAll();
+    Play_GenerateStarfield();
+    gStarCount = 0;
+    gNextGameState = GSTATE_MAP;
+    gLastGameState = GSTATE_GAME_OVER;
+    D_ctx_80177868 = 2;
+    gDrawMode = DRAW_NONE;
+}
+
+void Option_GameOver(void) {
+    switch (D_ctx_80177868) {
+        case 0:
+            if (gNextGameStateTimer == 0) {
+                D_ctx_80177868 = 1;
+            }
+            break;
+
+        case 2:
+            break;
+
+        case 1:
+            Option_8019E800();
+            break;
+    }
+}
+
+void Option_8019E8C8(void) {
 }

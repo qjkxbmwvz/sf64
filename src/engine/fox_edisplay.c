@@ -323,7 +323,7 @@ void ActorDebris_Draw(ActorDebris* this) {
             gSPDisplayList(gMasterDisp++, sZoContainerDebrisDLs[this->work_048]);
             break;
 
-        case ACTORDEBRIS_40:
+        case ACTORDEBRIS_TI_GORAS:
             gDPSetPrimColor(gMasterDisp++, 0x00, 0x00, 255, 255, 255, 255);
             switch (this->work_048) {
                 case 0:

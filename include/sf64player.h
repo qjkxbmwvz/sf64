@@ -20,13 +20,13 @@ typedef enum TeamId {
     /* 3 */ TEAM_ID_PEPPY,
     /* 4 */ TEAM_ID_KATT,
     /* 5 */ TEAM_ID_BILL,
-    /* 6 */ TEAM_ID_MAX,
+    /* 6 */ TEAM_ID_MAX
 } TeamId;
 
 typedef enum WingState {
     /* 0 */ WINGSTATE_NONE,
     /* 1 */ WINGSTATE_BROKEN,
-    /* 2 */ WINGSTATE_INTACT,
+    /* 2 */ WINGSTATE_INTACT
 } WingState;
 
 typedef enum PlayerForm {
@@ -35,7 +35,7 @@ typedef enum PlayerForm {
     /* 2 */ FORM_BLUE_MARINE,
     /* 3 */ FORM_ON_FOOT,
     /* 4 */ FORM_UNK_4,
-    /*-1 */ FORM_NONE=255,
+    /*-1 */ FORM_NONE=255
 } PlayerForm;
 
 typedef enum DrawMode {
@@ -48,7 +48,7 @@ typedef enum DrawMode {
     /* 6 */ DRAW_UNK_VS,
     /* 7 */ DRAW_PAUSE, // Unused pause code
     /* 8 */ DRAW_ENDING,
-    /* 9 */ DRAW_MAX,
+    /* 9 */ DRAW_MAX
 } DrawMode;
 
 typedef enum EngineGlowColor {
@@ -62,7 +62,7 @@ typedef enum LevelMode {
     /* 0 */ LEVELMODE_ON_RAILS,
     /* 1 */ LEVELMODE_ALL_RANGE,
     /* 2 */ LEVELMODE_TURRET, // Unused scrapped turret mode
-    /* 3 */ LEVELMODE_MAX,
+    /* 3 */ LEVELMODE_MAX
 } LevelMode;
 
 typedef enum PlayerState {
@@ -80,13 +80,13 @@ typedef enum PlayerState {
     /* 11 */ PLAYERSTATE_ANDROSS_MOUTH,
     /* 12 */ PLAYERSTATE_UNK_12,
     /* 13 */ PLAYERSTATE_VS_STANDBY,
-    /* 14 */ PLAYERSTATE_MAX,
+    /* 14 */ PLAYERSTATE_MAX
 } PlayerState;
 
 typedef enum PlayerShotStatus {
     /* 0 */ SHOT_FREE,
     /* 1 */ SHOT_ACTIVE,
-    /* 2 */ SHOT_HITMARK,
+    /* 2 */ SHOT_HITMARK
 } PlayerShotStatus;
 
 typedef enum PlayerShotId {
@@ -99,7 +99,7 @@ typedef enum PlayerShotId {
     /* 6 */ PLAYERSHOT_ON_FOOT, // on-foot shot
     /* 7 */ PLAYERSHOT_7, // unused? related to on-foot shot somehow
     /* 8 */ PLAYERSHOT_LOCK_ON, // charge shot
-    /* 9 */ PLAYERSHOT_GFOX_LASER,
+    /* 9 */ PLAYERSHOT_GFOX_LASER
 } PlayerShotId;
 
 #define NPC_SHOT_ID 100
@@ -112,7 +112,7 @@ typedef enum LaserStrength {
     /* 1 */ LASERS_TWIN,
     /* 2 */ LASERS_HYPER,
     /* 3 */ LASERS_UNK_3,
-    /* 4 */ LASERS_MAX,
+    /* 4 */ LASERS_MAX
 } LaserStrength;
 
 typedef struct PlayerShot {

@@ -1,6 +1,7 @@
 #include "common.h"
 
-#pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_80195C80.s")
+// Map_Main
+#pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/Map_Main.s")
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_80195D4C.s")
 
@@ -22,7 +23,7 @@
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_801970D0.s")
 
-#pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_801972FC.s")
+#pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/Map_Update.s")
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_8019755C.s")
 
@@ -32,7 +33,9 @@
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_80197BA8.s")
 
-#pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_80197D14.s")
+// Matched
+// https://decomp.me/scratch/aXe54
+#pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/Map_Prologue_Update.s")
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_801980E0.s")
 
@@ -206,7 +209,9 @@
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_801A2578.s")
 
-#pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/func_menu_801A25F4.s")
+// Matched
+// https://decomp.me/scratch/zxPYW
+#pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/Map_BriefingRadio_Update.s")
 
 #pragma GLOBAL_ASM("asm/jp/rev0/nonmatchings/overlays/ovl_menu/fox_map/D_menu_801AEA50.s")
 

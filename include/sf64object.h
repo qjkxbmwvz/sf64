@@ -68,7 +68,7 @@ typedef enum {
     /*  6 */ COL1_6, // OBJ_SCENERY_FO_MOUNTAIN_3
     /*  7 */ COL1_7, // OBJ_BOSS_BO_BASE
     /*  8 */ COL1_8, // OBJ_BOSS_SZ_GREAT_FOX
-    /*  9 */ COL1_9, // OBJ_BOSS_VE2_BASE
+    /*  9 */ COL1_9 // OBJ_BOSS_VE2_BASE
 } CollisonId_1;
 
 typedef enum {
@@ -90,7 +90,7 @@ typedef enum {
     /* 15 */ COL2_15, // OBJ_SCENERY_AQ_BUMP_1
     /* 16 */ COL2_16, // OBJ_SCENERY_AQ_BUMP_2
     /* 17 */ COL2_17, // OBJ_SCENERY_VS_KA_FLBASE
-    /* 18 */ COL2_18, // OBJ_SCENERY_AQ_CORAL_REEF_2
+    /* 18 */ COL2_18 // OBJ_SCENERY_AQ_CORAL_REEF_2
 } CollisionId_2;
 
 typedef struct {
@@ -138,7 +138,7 @@ typedef enum ObjectStatus {
     /* 0 */ OBJ_FREE,
     /* 1 */ OBJ_INIT,
     /* 2 */ OBJ_ACTIVE,
-    /* 3 */ OBJ_DYING,
+    /* 3 */ OBJ_DYING
 } ObjectStatus;
 
 typedef struct Object {
@@ -730,7 +730,7 @@ typedef enum ObjectId {
     /* 403 */ OBJ_UNK_403, // these seem to change camera settings for the landmaster in Titania
     /* 404 */ OBJ_UNK_404,
     /* 405 */ OBJ_UNK_405,
-    /* 406 */ OBJ_ID_MAX,
+    /* 406 */ OBJ_ID_MAX
 } ObjectId;
 
 #define OBJ_SCENERY_START OBJ_SCENERY_CO_STONE_ARCH
@@ -777,7 +777,7 @@ typedef enum ItemDrop {
     /* 23 */ DROP_WING_REPAIR,
     /* 24 */ DROP_TEAM_MESG,
     /* 25 */ DROP_SILVER_STAR,
-    /* 26 */ DROP_MAX,
+    /* 26 */ DROP_MAX
 } ItemDrop;
 
 typedef enum AllRangeAi {
@@ -794,7 +794,7 @@ typedef enum AllRangeAi {
     /*  10 */ AI360_ENEMY,
     /* 100 */ AI360_GREAT_FOX = 100,
     /* 200 */ AI360_MISSILE = 200,
-    /* 200 */ AI360_EVENT_HANDLER = 1000,
+    /* 200 */ AI360_EVENT_HANDLER = 1000
 } AllRangeAi;
 
 typedef enum ActorCutsceneModels {
@@ -873,7 +873,7 @@ typedef enum {
     /* 37 */ LN_SWK_37,
     /* 38 */ LN_SWK_38,
     /* 39 */ LN_SWK_39,
-    /* 40 */ LN_SWK_MAX,
+    /* 40 */ LN_SWK_MAX
 } BossLNswork;
 
 typedef enum {
@@ -927,7 +927,7 @@ typedef enum {
     /* 47 */ LN_FWK_47,
     /* 48 */ LN_FWK_48,
     /* 49 */ LN_FWK_49,
-    /* 50 */ LN_FWK_MAX,
+    /* 50 */ LN_FWK_MAX
 } BossLNfwork;
 
 typedef enum {
@@ -981,7 +981,7 @@ typedef enum {
     /* 47 */ LN_VWK_47,
     /* 48 */ LN_VWK_48,
     /* 49 */ LN_VWK_49,
-    /* 50 */ LN_VWK_MAX,
+    /* 50 */ LN_VWK_MAX
 } BossLNvwork;
 
 typedef Scenery CoStoneArch;

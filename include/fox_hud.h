@@ -16,7 +16,7 @@ typedef enum LevelClearScreenState {
     /* 2 */ LEVEL_CLEAR_STATE_2,
     /* 3 */ LEVEL_CLEAR_STATE_3,
     /* 4 */ LEVEL_CLEAR_STATE_4,
-    /* 5 */ LEVEL_CLEAR_STATE_5,
+    /* 5 */ LEVEL_CLEAR_STATE_5
 } LevelClearScreenState;
 
 typedef enum BombCounterStates {
@@ -27,7 +27,7 @@ typedef enum BombCounterStates {
     /* 4 */ BOMB_COUNTER_STATE_4,
     /* 5 */ BOMB_COUNTER_STATE_5,
     /* 6 */ BOMB_COUNTER_STATE_6,
-    /* 7 */ BOMB_COUNTER_STATE_7,
+    /* 7 */ BOMB_COUNTER_STATE_7
 } BombCounterStates;
 
 typedef enum RadarMarkTypes {
@@ -52,13 +52,13 @@ typedef enum RadarMarkTypes {
 typedef enum ActorMissileSeekMode {
     /* 0 */ MISSILE_SEEK_TEAMMATES,
     /* 1 */ MISSILE_SEEK_PLAYER,
-    /* 2 */ MISSILE_SEEK_EITHER,
+    /* 2 */ MISSILE_SEEK_EITHER
 } ActorMissileSeekMode;
 
 typedef enum ShieldGaugeState {
     /* 0 */ SHIELD_GAUGE_NEUTRAL,
     /* 1 */ SHIELD_GAUGE_CHECK_UPGRADE,
-    /* 2 */ SHIELD_GAUGE_UPGRADING,
+    /* 2 */ SHIELD_GAUGE_UPGRADING
 } ShieldGaugeState;
 
 #endif

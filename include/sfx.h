@@ -72,7 +72,7 @@ typedef enum SfxBankId {
     SFX_BANK_2,
     SFX_BANK_3,
     SFX_BANK_SYSTEM,
-    SFX_BANK_MAX,
+    SFX_BANK_MAX
 } SfxBankId;
 
 #define NA_SE_NONE                  0x00000000 // 
